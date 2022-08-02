@@ -8,22 +8,22 @@ const precioEntrada=[5000,8000,10000,15000]
 switch (numero) {
   case 1:
     alert(
-      'La película es Batman, su categoría es acción y el valor de entrada es 5000'
+      'La película es ${peliculas[0]}, su categoría es ${categorias[0]} y el valor de entrada es ${precioEntrada[0]}'
     )
     break
   case 2:
     alert(
-      'La película es Los Vengadores, su categoría es acción y el valor de la entrada es 10,000.'
+      'La película es ${peliculas[1]}, su categoría es ${categorias[0]} y el valor de la entrada es ${precioEntrada[2]}.'
     )
     break
   case 3:
     alert(
-      'La película es SuperCool, su categoría es comedia y el valor de la entrada es 8,000.'
+      'La película es ${peliculas[2]}, su categoría es ${categorias[1]} y el valor de la entrada es ${precioEntrada[1]}.'
     )
     break
   case 4:
     alert(
-      'La película es rápido y furioso 5, subcategoría es de aventura eso valor de entrada es 15,000'
+      'La película es ${peliculas[3]}, subcategoría es de ${categorias[2]} eso valor de entrada es ${precioEntrada[3]}.'
     )
     break
   default:
